@@ -6,9 +6,9 @@ import ReactTypingEffect from 'react-typing-effect'
 const PortfolioHeader = () => {
 
   return(
-  <div className='App'>
+  <div >
     <Container fluid  textAlign='center' className='header'>
-  <Header as='h1' content='Sarah Barbee' style={{fontSize: '4em', marginTop: '3em'}}>
+  <Header as='h1' content='Sarah Barbee' style={{fontSize: '4em', marginTop: '1em'}}>
     
     Sarah Barbee
     <Header.Subheader>

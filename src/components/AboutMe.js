@@ -7,7 +7,7 @@ const AboutMe = ()=> {
 		<div>
 	<Divider section />
 		
-		<Segment fluid style={{ padding: '8em 0em' }} vertical>
+		<Segment fluid style={{ padding: '6em 0em' }} vertical color='purple'>
 		<Grid container stackable verticalAlign='middle'>
 			<Grid.Row>
 			<Grid.Column width={8}>

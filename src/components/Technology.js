@@ -1,23 +1,20 @@
 import _ from 'lodash'
 import React from 'react'
-import { Grid, Image, Icon, Divider, Segment } from 'semantic-ui-react'
+import { Grid, Image, Icon, Divider, Segment, Header, Container } from 'semantic-ui-react'
 
 
 
 const Technology = ()=> {
 
-	const columns = _.times(16, (i) => (
-		<Grid.Column key={i}>
-		  <Image src='/images/wireframe/image.png' />
-		</Grid.Column>
-	  ))
+	
 
 	return(
 		<div>
-	<Divider section />
-		
-		<Segment fluid style={{ padding: '8em 0em' }} verticalAlign='center'>
-		<Grid columns={14}>
+	
+		<Container fluid>
+		<Segment style={{ padding: '2em' }} color='teal'>
+		<Header size='huge' textAlign='center' color='teal'>Technologies</Header>
+		<Grid columns={15}>
 			
 			<Grid.Column>
 				<Icon className='devicon-express-original' size ='huge'/>
@@ -65,6 +62,7 @@ const Technology = ()=> {
 
 		</Grid>
 		</Segment>
+		</Container>
 		
 	</div>
 

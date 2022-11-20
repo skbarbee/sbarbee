@@ -5,6 +5,9 @@ import 'semantic-ui-css/semantic.min.css'
 import PortfolioHeader from './components/Header';
 import AboutMe from './components/AboutMe'
 import Technology from './components/Technology'
+import Projects from './components/Projects'
+
+
 function App() {
   return (
 <div>    
@@ -12,6 +15,7 @@ function App() {
   <PortfolioHeader/>
   <AboutMe/>
   <Technology/>
+  <Projects/>
   
 </div>
   );
