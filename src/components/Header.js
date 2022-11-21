@@ -23,9 +23,9 @@ const PortfolioHeader = () => {
           <Icon className='devicon-github-original' size ='big' color='teal'/>
       </a>
       <a 
-        href='https://github.com/skbarbee' 
+        href='https://www.linkedin.com/in/sarah-barbee/' 
         target='_blank'
-        aria-label='Github'>
+        aria-label='LinkedIn'>
           <Icon className='devicon-linkedin-plain' size ='big' color='purple'/>
       </a>
       </IconGroup>
