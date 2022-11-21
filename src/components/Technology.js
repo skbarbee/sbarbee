@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import React from 'react'
-import { Grid, Image, Icon, Divider, Segment, Header, Container } from 'semantic-ui-react'
+import { Grid, Icon, Segment, Header, Container } from 'semantic-ui-react'
 
 
 
@@ -12,9 +12,9 @@ const Technology = ()=> {
 		<div>
 	
 		<Container fluid>
-		<Segment style={{ padding: '2em' }} color='teal'>
-		<Header size='huge' textAlign='center' color='teal'>Technologies</Header>
-		<Grid columns={15}>
+		<Segment style={{ padding: '1em' }} color='teal'>
+		<Header size='huge' textAlign='center' color='teal'>Skills</Header>
+		<Grid stackable columns={15}>
 			
 			<Grid.Column>
 				<Icon className='devicon-express-original' size ='huge'/>

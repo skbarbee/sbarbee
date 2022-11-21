@@ -12,6 +12,6 @@ code {
     monospace;
 }
 
-i{
-  size:4em;
+a{
+  color: inherit;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Header, Icon } from 'semantic-ui-react'
+import {Container, Header, Icon, IconGroup, } from 'semantic-ui-react'
 import ReactTypingEffect from 'react-typing-effect'
 
 
@@ -12,9 +12,26 @@ const PortfolioHeader = () => {
     
     Sarah Barbee
     <Header.Subheader>
-	<ReactTypingEffect text={["Full Stack Developer", "Software Engineer", "Backend Developer", "Frontend Developer"]}style={{fontSize: '1.7em', margin: '3em'}}></ReactTypingEffect>
+	<ReactTypingEffect text={["Full Stack Developer", "Back-End Developer", "Front-End Developer"]}style={{fontSize: '1.7em', margin: '3em'}}></ReactTypingEffect>
+    </Header.Subheader>
+    <Header.Subheader>
+      <IconGroup style={{margin:"1em"}}>
+      <a 
+        href='https://github.com/skbarbee' 
+        target='_blank'
+        aria-label='Github'>
+          <Icon className='devicon-github-original' size ='big' color='teal'/>
+      </a>
+      <a 
+        href='https://github.com/skbarbee' 
+        target='_blank'
+        aria-label='Github'>
+          <Icon className='devicon-linkedin-plain' size ='big' color='purple'/>
+      </a>
+      </IconGroup>
     </Header.Subheader>
   </Header>
+ 
   </Container>
   </div>
 )

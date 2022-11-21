@@ -14,8 +14,9 @@ function App() {
   
   <PortfolioHeader/>
   <AboutMe/>
-  <Technology/>
   <Projects/>
+  
+  
   
 </div>
   );

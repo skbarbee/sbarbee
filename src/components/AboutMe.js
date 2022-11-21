@@ -1,5 +1,6 @@
 import React from 'react';
-import {Divider, Grid, Image, Segment, Container, Header } from 'semantic-ui-react';
+import {Divider, Grid, Image, Segment, Header } from 'semantic-ui-react';
+import Technology from './Technology';
 
 const AboutMe = ()=> {
 
@@ -7,26 +8,22 @@ const AboutMe = ()=> {
 		<div>
 	<Divider section />
 		
-		<Segment fluid style={{ padding: '6em 0em' }} vertical color='purple'>
+		<Segment fluid style={{ padding: '3em 0em' }} vertical color='purple'>
 		<Grid container stackable verticalAlign='middle'>
 			<Grid.Row>
 			<Grid.Column width={8}>
-				<Header as='h3' style={{ fontSize: '2em' }}>
+				<Header as='h1' style={{ fontSize: '2em' }}>
 				About Me
 				</Header>
 				<p style={{ fontSize: '1.33em' }}>
-				👋 I'm Sarah. I am a full stack engineer coming from a background of education.  💜
+				I am a Software Engineer coming from a background of Education, who will bring exceptional collaboration skills, outside-the-box thinking, and an enthusiasm to find solutions to any team I join. 
 				</p>
 			</Grid.Column>
 			<Grid.Column floated='right' width={6}>
 				<Image bordered rounded size='large' src={`${process.env.PUBLIC_URL}/images/profile.svg`}/>
 			</Grid.Column>
 			</Grid.Row>
-			<Grid.Row>
-			<Grid.Column textAlign='center'>
-			
-			</Grid.Column>
-			</Grid.Row>
+			<Technology/>
 		</Grid>
 		</Segment>
 		
