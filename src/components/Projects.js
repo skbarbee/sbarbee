@@ -1,12 +1,21 @@
 import _ from 'lodash'
 import React from 'react'
-import { Grid, Image, Icon, Divider, Segment, Header, Card, Button } from 'semantic-ui-react'
+import {  Image,  Segment, Header, Card, Button } from 'semantic-ui-react'
 
 
 
 const Projects = ()=> {
 
 	const projects = [
+		// {
+		// 	header: 'BoomPow',
+		// 	description:"A full stack application. Users must create a log in so they can create a pet profile that they can update and delete. They can also see other pets on the app and message users to make play-dates.",
+		// 	meta:'Django, Python, React.js, Node.js, Semantic-UI, ',
+		// 	image:"",
+		// 	href: '',
+		// 	signIn: ''
+			
+		// },
 		{
 			header: 'PetMatch App',
 			description:"A full stack application. Users must create a log in so they can create a pet profile that they can update and delete. They can also see other pets on the app and message users to make play-dates.",
@@ -46,7 +55,8 @@ const Projects = ()=> {
 		
 		<Card.Header size='huge'>{project.header}</Card.Header>
 		<Card.Meta>{project.meta}</Card.Meta>
-		<Card.Description>{project.description}</Card.Description>
+		<Card.Description>{project.description}</Card.Description><br></br>
+		<Card.Meta>{project.signIn}</Card.Meta>
 		</Card.Content>
 		<Card.Content extra className='ui one button'>
 		<a
@@ -56,16 +66,16 @@ const Projects = ()=> {
 			aria-label={project.header}
 			
 		><Button basic color='purple'>Check Out the Live Site</Button></a>
-		<p>{project.signIn}</p>
+		
 		</Card.Content>
 	</Card>
 
  ))
 	return(
 		<div>
-			<Segment fluid style={{ padding: '2em 1em', marginBottom:'2em' }} verticalAlign='center' color='purple'>
+			<Segment fluid style={{ padding: '2em 1em', marginBottom:'2em' }} verticalAlign='justify' color='purple'>
 				<Header size='huge' textAlign='center' color='purple'>Projects</Header>
-				<Card.Group centered stackable >
+				<Card.Group  centered stackable >
 					{projectCards}
 				</Card.Group>
 			</Segment>
