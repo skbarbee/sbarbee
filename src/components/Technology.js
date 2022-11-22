@@ -1,4 +1,4 @@
-import _ from 'lodash'
+
 import React from 'react'
 import { Grid, Icon, Segment, Header, Container } from 'semantic-ui-react'
 
@@ -12,9 +12,9 @@ const Technology = ()=> {
 		<div>
 	
 		<Container fluid>
-		<Segment style={{ }} color='teal'>
+		<Segment  color='teal'>
 		<Header size='huge' textAlign='center' color='teal'>Skills</Header>
-		<Grid textAlign='center' className="ui stackable fluid centered grid justified wrap"  >
+		<Grid fluid textAlign='center' className="ui stackable fluid centered grid"  >
 			
 			<Grid.Column fluid verticalAlign='center'>
 				<Icon className='devicon-express-original' size ='huge'/>

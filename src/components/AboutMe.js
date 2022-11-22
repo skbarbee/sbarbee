@@ -18,6 +18,9 @@ const AboutMe = ()=> {
 				<p style={{ fontSize: '1.33em' }}>
 				I am a Software Engineer coming from a background of Education, who will bring exceptional collaboration skills, outside-the-box thinking, and an enthusiasm to find solutions to any team I join. 
 				</p>
+				<Divider>
+				<a href = {`${process.env.PUBLIC_URL}/Resume.pdf`} target = "_blank"> Check Out My Resume </a>
+				</Divider>
 			</Grid.Column>
 			<Grid.Column floated='right' width={6}>
 				<Image bordered rounded size='large' src={`${process.env.PUBLIC_URL}/images/profile.svg`}/>
