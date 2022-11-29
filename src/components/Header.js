@@ -5,11 +5,6 @@ import ReactTypingEffect from 'react-typing-effect'
 
 const PortfolioHeader = () => {
 
-  const PopupContent =()=>{
-    return(
-      <Popup content='My Resume'  />
-    )
-  }
 
   return(
   <div >
@@ -18,7 +13,7 @@ const PortfolioHeader = () => {
     
     Sarah Barbee
     <Header.Subheader>
-	<ReactTypingEffect text={["Full Stack Developer", "Back-End Developer", "Front-End Developer"]}style={{fontSize: '1.7em', margin: '3em'}}></ReactTypingEffect>
+	<ReactTypingEffect text={["Full Stack Developer", "Back-End Developer", "Front-End Developer"]}style={{fontSize: '1.7em', }}></ReactTypingEffect>
     </Header.Subheader>
     <Header.Subheader>
       <IconGroup style={{margin:"1em"}} size='big'>

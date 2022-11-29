@@ -15,6 +15,7 @@ function App() {
   <PortfolioHeader/>
   <AboutMe/>
   <Projects/>
+  <Technology/>
   
   
   
