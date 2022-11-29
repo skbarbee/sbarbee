@@ -6,7 +6,7 @@ const AboutMe = ()=> {
 
 	return(
 		<div>
-	<Divider section />
+	
 		
 		<Segment fluid style={{ padding: '3em 0em' }} vertical color='purple'>
 		<Grid container stackable verticalAlign='middle'>

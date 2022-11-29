@@ -74,7 +74,7 @@ const Projects = ()=> {
 	return(
 		<div>
 			<Segment fluid style={{ padding: '2em 1em', marginBottom:'2em' }} verticalAlign='justify' color='violet'>
-				<Header size='huge' textAlign='center' color='purple'>Projects</Header>
+				<Header size='huge' textAlign='center' color='violet'>Projects</Header>
 				<Card.Group  centered stackable >
 					{projectCards}
 				</Card.Group>
