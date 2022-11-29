@@ -13,10 +13,10 @@ const PortfolioHeader = () => {
     
     Sarah Barbee
     <Header.Subheader>
-	<ReactTypingEffect text={["Full Stack Developer", "Back-End Developer", "Front-End Developer"]}style={{fontSize: '1.7em',margin:'1em' }}></ReactTypingEffect>
+	<ReactTypingEffect text={["Full Stack Developer", "Back-End Developer", "Front-End Developer"]}style={{fontSize: '1.7em', margin:'1em' }}></ReactTypingEffect>
     </Header.Subheader>
     <Header.Subheader>
-      <IconGroup  size='big' style={{margin: '1em'}}>
+      <IconGroup  size='big' style={{marginBottom: '.5em', marginTop:'.5em'}}>
       <a 
         href='https://github.com/skbarbee' 
         target='_blank'
