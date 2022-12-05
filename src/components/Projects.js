@@ -1,4 +1,3 @@
-import _ from 'lodash'
 import React from 'react'
 import {  Image,  Segment, Header, Card, Button } from 'semantic-ui-react'
 
@@ -11,8 +10,8 @@ const Projects = ()=> {
 			header: 'BamPow',
 			description:"Fullstack Application Where Users Can Track Their Favorite Author, Illustrators, Publishers, And Characters For Comics",
 			meta:'Django, Python, React.js, Node.js, Semantic-UI, ',
-			image:"",
-			href: '',
+			image:"BamPow.png",
+			href: 'https://github.com/OHammerpaw/django-comics',
 			signIn: ''
 			
 		},
@@ -62,10 +61,16 @@ const Projects = ()=> {
 		<a
 			href={project.href}
 			target='_blank'
-			rel="noopener"
+			rel="noreferrer"
 			aria-label={project.header}
 			
-		><Button basic color='purple'>Check Out the Live Site</Button></a>
+		>
+			{project.header==='BamPow'?<Button disabled="" basic color='purple'>Live Site Coming Soon Check Out The Code On Github</Button>
+			:
+				<Button basic color='purple'>Check Out the Live Site</Button>
+			} 
+		
+			</a>
 		
 		</Card.Content>
 	</Card>
