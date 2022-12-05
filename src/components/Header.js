@@ -22,14 +22,16 @@ const PortfolioHeader = () => {
         target='_blank'
         rel="noreferrer"
         aria-label='Github'>
-          <Icon className='devicon-github-original'  color='purple'/>
+          <Popup content='GitHub' trigger={<Icon className='devicon-github-original'  color='purple'/>}/>
+          
       </a>
       <a 
         href='https://www.linkedin.com/in/sarah-barbee/' 
         target='_blank'
         rel="noreferrer"
         aria-label='LinkedIn'>
-          <Icon className='devicon-linkedin-plain'  color='violet'/>
+         <Popup content='LinkedIn' trigger={<Icon className='devicon-linkedin-plain'  color='violet'/>}/>
+          
       </a>
       <a 
         href={`${process.env.PUBLIC_URL}/Resume.pdf`} 
