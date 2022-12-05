@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Container, Header, Icon, IconGroup, Popup, } from 'semantic-ui-react'
 import ReactTypingEffect from 'react-typing-effect'
 
@@ -20,20 +20,26 @@ const PortfolioHeader = () => {
       <a 
         href='https://github.com/skbarbee' 
         target='_blank'
+        rel="noreferrer"
         aria-label='Github'>
           <Icon className='devicon-github-original'  color='purple'/>
       </a>
       <a 
         href='https://www.linkedin.com/in/sarah-barbee/' 
         target='_blank'
+        rel="noreferrer"
         aria-label='LinkedIn'>
           <Icon className='devicon-linkedin-plain'  color='violet'/>
       </a>
       <a 
         href={`${process.env.PUBLIC_URL}/Resume.pdf`} 
         target='_blank'
+        rel="noreferrer"
         aria-label='Resume'>
-          <Icon name='file alternate'  color='teal'/>
+         
+           <Popup content='My Resume' trigger={<Icon name='file alternate'  color='teal'/>}/>
+         
+          
       </a>
       </IconGroup>
     </Header.Subheader>

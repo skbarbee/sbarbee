@@ -7,15 +7,15 @@ import {  Image,  Segment, Header, Card, Button } from 'semantic-ui-react'
 const Projects = ()=> {
 
 	const projects = [
-		// {
-		// 	header: 'BoomPow',
-		// 	description:"A full stack application. Users must create a log in so they can create a pet profile that they can update and delete. They can also see other pets on the app and message users to make play-dates.",
-		// 	meta:'Django, Python, React.js, Node.js, Semantic-UI, ',
-		// 	image:"",
-		// 	href: '',
-		// 	signIn: ''
+		{
+			header: 'BamPow',
+			description:"Fullstack Application Where Users Can Track Their Favorite Author, Illustrators, Publishers, And Characters For Comics",
+			meta:'Django, Python, React.js, Node.js, Semantic-UI, ',
+			image:"",
+			href: '',
+			signIn: ''
 			
-		// },
+		},
 		{
 			header: 'PetMatch App',
 			description:"A full stack application. Users must create a log in so they can create a pet profile that they can update and delete. They can also see other pets on the app and message users to make play-dates.",
