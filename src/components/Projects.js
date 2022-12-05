@@ -11,7 +11,7 @@ const Projects = ()=> {
 			description:"Fullstack Application Where Users Can Track Their Favorite Author, Illustrators, Publishers, And Characters For Comics",
 			meta:'Django, Python, React.js, Node.js, Semantic-UI, ',
 			image:"BamPow.png",
-			href: 'https://github.com/OHammerpaw/django-comics',
+			href: 'https://github.com/skbarbee/django-comics',
 			signIn: ''
 			
 		},
