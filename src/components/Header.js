@@ -4,7 +4,7 @@ import ReactTypingEffect from "react-typing-effect";
 
 const PortfolioHeader = () => {
   return (
-    <div>
+    <div id="header">
       <Container fluid textAlign="center" className="header">
         <Header
           as="h1"

@@ -9,7 +9,7 @@ const Technology = ()=> {
 	
 
 	return(
-		<div>
+		<div id='technology'>
 	
 		
 		<Segment fluid style={{ padding: '3em 0em' }} vertical color='teal'>

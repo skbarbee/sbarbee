@@ -1,14 +1,16 @@
 import React from 'react';
-import {Divider, Grid, Image, Segment, Header } from 'semantic-ui-react';
+import {Divider, Grid, Image, Segment, Header, Sidebar } from 'semantic-ui-react';
 import Technology from './Technology';
 
 const AboutMe = ()=> {
 
 	return(
-		<div>
+		<div id='about'>
 	
-		
-		<Segment fluid style={{ padding: '3em 0em' }} vertical color='purple'>
+
+            
+			
+		<Segment basic fluid style={{ padding: '3em 0em' }} vertical color='purple'>
 		<Grid container stackable verticalAlign='middle'>
 			<Grid.Row>
 			<Grid.Column width={8}>
@@ -28,6 +30,7 @@ const AboutMe = ()=> {
 			
 		</Grid>
 		</Segment>
+	
 		
 	</div>
 
