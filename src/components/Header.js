@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Header, Icon, IconGroup, Popup } from "semantic-ui-react";
-import ReactTypingEffect from "react-typing-effect";
+import ReactTypingEffect from "react-typing-effect"
+
 
 const PortfolioHeader = () => {
   return (
@@ -64,7 +65,9 @@ const PortfolioHeader = () => {
                   trigger={<Icon name="file alternate" color="teal" />}
                 />
               </a>
+              
             </IconGroup>
+            
           </Header.Subheader>
         </Header>
       </Container>
