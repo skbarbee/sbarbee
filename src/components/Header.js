@@ -16,9 +16,7 @@ const PortfolioHeader = () => {
           <Header.Subheader>
             <ReactTypingEffect
               text={[
-                "Full Stack Developer",
-                "Back-End Developer",
-                "Front-End Developer",
+                "Full Stack Developer"
               ]}
               style={{ fontSize: "1.7em", margin: "1em" }}
             ></ReactTypingEffect>
