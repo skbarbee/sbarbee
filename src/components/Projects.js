@@ -11,8 +11,8 @@ const Projects = ()=> {
 			description:"Fullstack Application Where Users Can Track Their Favorite Author, Illustrators, Publishers, And Characters For Comics",
 			meta:'Django, Python, React.js, Node.js, Semantic-UI ',
 			image:"BamPow.png",
-			href: 'https://github.com/skbarbee/django-comics',
-			signIn: ''
+			href: 'https://bampow.netlify.app/',
+			signIn: 'Username: sb@sb.com Password: Password1'
 			
 		},
 		{
@@ -65,10 +65,9 @@ const Projects = ()=> {
 			aria-label={project.header}
 			
 		>
-			{project.header==='BamPow'?<Button disabled="" basic color='purple'>Live Site Coming Soon Check Out The Code On Github</Button>
-			:
+			
 				<Button basic color='purple'>Check Out the Live Site</Button>
-			} 
+			
 		
 			</a>
 		
