@@ -1,5 +1,5 @@
 import React from 'react';
-import {Divider, Grid, Image, Segment, Header } from 'semantic-ui-react';
+import { Grid, Image, Segment, Header } from 'semantic-ui-react';
 import ContactModal from './Contact';
 
 
