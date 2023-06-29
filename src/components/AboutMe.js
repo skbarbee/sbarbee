@@ -18,7 +18,9 @@ const AboutMe = ()=> {
 			<Header as='h1' style={{ fontSize: '2em', textAlign:'center' }}>
 				About Me
 				<Header.Subheader>
-					Get In Touch <ContactModal />
+				<a href="mailto:barbee.s.k@gmail.com?subject=Saw%20Your%20Portfolio">Email me</a>
+
+					
 					</Header.Subheader>
 				</Header>
 				<p style={{ fontSize: '1.33em' }}>
