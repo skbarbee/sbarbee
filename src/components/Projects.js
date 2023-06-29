@@ -36,7 +36,7 @@ const Projects = ()=> {
 
 		{
 			header:"Boo-p It",
-			description:"Simple Boo-p it style javascript game with a Halloween theme.",
+			description:"Simple Bop-it style javascript game with a Halloween theme. You should play it! It's nostalgic.",
 			meta:"JavaScript, HTML 5, and CSS 3",
 			image:'boopIT.png',
 			href:'https://skbarbee.github.io/Boo-p-it-/'
